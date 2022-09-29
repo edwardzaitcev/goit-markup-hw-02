@@ -22,6 +22,14 @@ p class="text-paragraph"
 section class="different"
 h2 class="different-title" - Чим ми займаємося
 4)
+class="team"
+class="team-title" -Наша команда
+
+
+
+footer
+class="footer-mail link"
+class="footer-tel link"
 
 */
 
@@ -29,7 +37,7 @@ h2 class="different-title" - Чим ми займаємося
   font-family: "Roboto", sans-serif;
   background: #ffffff;
   width: 1600px;
-  height: 80px;
+  height: 2346px;
 }
 .list {
   list-style: none;
@@ -43,7 +51,7 @@ h2 class="different-title" - Чим ми займаємося
 .link:focus {
   color: orange;
 }
-/*------------------------HEADER----------------*/
+/*header*/
 .header {
   background: #ffffff;
 }
@@ -82,7 +90,7 @@ h2 class="different-title" - Чим ми займаємося
   letter-spacing: 0.02em;
   color: #757575;
 }
-/*-------------------------MAIN-------------------*/
+/*Content*/
 .content {
   background: #2f303a;
 }
@@ -95,7 +103,7 @@ h2 class="different-title" - Чим ми займаємося
   text-transform: uppercase;
   color: #ffffff;
 }
-.content-button {
+.content-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88x;
@@ -105,24 +113,6 @@ h2 class="different-title" - Чим ми займаємося
   letter-spacing: 0.06em;
   color: #ffffff;
 }
-/*.subject {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.19;
-  align-items: center;
-  text-align: center;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}*/
 
 .text-title {
   font-weight: 700;
@@ -138,7 +128,7 @@ h2 class="different-title" - Чим ми займаємося
   letter-spacing: 0.03em;
   color: #757575;
 }
-.main-subtitle {
+.main-different {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -146,10 +136,12 @@ h2 class="different-title" - Чим ми займаємося
   letter-spacing: 0.03em;
   color: #212121;
 }
-.headline {
+/* .different-title{}*/
+
+.team {
   background: #f5f4fa;
 }
-.headline-title {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -157,7 +149,7 @@ h2 class="different-title" - Чим ми займаємося
   letter-spacing: 0.03em;
   color: #212121;
 }
-.headline-desc {
+.team-desc {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -165,14 +157,14 @@ h2 class="different-title" - Чим ми займаємося
   letter-spacing: 0.03em;
   color: #212121;
 }
-.headline-text {
+.team-paragraph {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
-/*-----------------------FOOTER-------------------------*/
+/*footer*/
 .footer {
   font-family: "Roboto", sans-serif;
   background: #2f303a;
@@ -191,7 +183,7 @@ h2 class="different-title" - Чим ми займаємося
 .footer-span-logo {
   color: #2196f3;
 }
-.footer-adress-gps {
+.footer-address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
