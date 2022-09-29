@@ -36,7 +36,6 @@ class="footer-tel link"
 .site-body {
   font-family: "Roboto", sans-serif;
   background: #ffffff;
-  
 }
 .list {
   list-style: none;
@@ -111,8 +110,6 @@ class="footer-tel link"
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-} 
-
 }
 
 .text-title {
@@ -214,7 +211,7 @@ class="footer-tel link"
   letter-spacing: 0.06em;
   color: #212121;
 }
-.main-text {
+.portfol-paragraf {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
