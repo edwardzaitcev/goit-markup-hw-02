@@ -1,1 +1,237 @@
-/* heder */
+/*
+0)
+body class="site-body"
+header class="header"
+<a href="./index.html" class="header-logo link"><span class="span-logo">Web</span>Studio</a>
+ul class="heder-list"
+li class="header-item
+link
+a class="header-link link"
+
+1)
+section class="content"
+h1 class="content-title"
+button type="button" class="content-button link"- замовити послугу
+2)
+section class="text" - Н2 скритий , наші переваги
+ul class="list
+h3 class="text-title"
+p class="text-paragraph"
+
+3) 
+section class="different"
+h2 class="different-title" - Чим ми займаємося
+4)
+
+*/
+
+.site-body {
+  font-family: "Roboto", sans-serif;
+  background: #ffffff;
+  width: 1600px;
+  height: 80px;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: #2196f3;
+}
+.link:focus {
+  color: orange;
+}
+/*------------------------HEADER----------------*/
+.header {
+  background: #ffffff;
+}
+.content-btn {
+  cursor: pointer;
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.span-logo {
+  color: #2196f3;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+/*-------------------------MAIN-------------------*/
+.content {
+  background: #2f303a;
+}
+.content-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.content-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88x;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+/*.subject {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.19;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}*/
+
+.text-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.text-paragraf {
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.main-subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.headline {
+  background: #f5f4fa;
+}
+.headline-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.headline-desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.headline-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*-----------------------FOOTER-------------------------*/
+.footer {
+  font-family: "Roboto", sans-serif;
+  background: #2f303a;
+}
+.footer-adress {
+  font-family: "Roboto", sans-serif;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-span-logo {
+  color: #2196f3;
+}
+.footer-adress-gps {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*-------------------------PORTFOLIO-------------------------*/
+/*--------------------------MAIN------------------------------*/
+.main-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.main-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.main-btn {
+  cursor: pointer;
+}
