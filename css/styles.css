@@ -36,8 +36,7 @@ class="footer-tel link"
 .site-body {
   font-family: "Roboto", sans-serif;
   background: #ffffff;
-  width: 1600px;
-  height: 2346px;
+  
 }
 .list {
   list-style: none;
@@ -112,6 +111,8 @@ class="footer-tel link"
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+} 
+
 }
 
 .text-title {
@@ -189,20 +190,15 @@ class="footer-tel link"
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.footer-mail {
+.footer-contact {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-tel {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-/*-------------------------PORTFOLIO-------------------------*/
-/*--------------------------MAIN------------------------------*/
+
+/*portfolio*/
+/*     */
 .main-btn {
   font-weight: 500;
   font-size: 16px;
@@ -211,7 +207,7 @@ class="footer-tel link"
   letter-spacing: 0.03em;
   color: #212121;
 }
-.main-title {
+.portfol-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
