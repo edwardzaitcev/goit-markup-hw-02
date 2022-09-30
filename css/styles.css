@@ -46,9 +46,7 @@ class="footer-tel link"
 .link:hover {
   color: #2196f3;
 }
-.link:focus {
-  color: orange;
-}
+
 /*header*/
 .header {
   background: #ffffff;
@@ -102,12 +100,10 @@ class="footer-tel link"
   color: #ffffff;
 }
 .content-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88x;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
 }
@@ -121,8 +117,9 @@ class="footer-tel link"
   color: #212121;
 }
 .text-paragraf {
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1, 71;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -169,6 +166,7 @@ class="footer-tel link"
 }
 .footer-adress {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -182,18 +180,16 @@ class="footer-tel link"
   color: #2196f3;
 }
 .footer-address {
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 .footer-contact {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 /*portfolio*/
 /*     */
 .main-btn {
@@ -212,7 +208,6 @@ class="footer-tel link"
   color: #212121;
 }
 .portfol-paragraf {
-  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
