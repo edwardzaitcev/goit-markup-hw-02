@@ -95,8 +95,7 @@ a class="header-link link"*/
   text-transform: uppercase;
   color: #212121;
 }
-.text-paragraf {
-  font-weight: 400;
+.text-paragraph {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -133,7 +132,7 @@ a class="header-link link"*/
 }
 .team-desc {
   font-weight: 500;
-
+  font-size: 16px;
   line-height: 1.19;
 
   letter-spacing: 0.03em;
