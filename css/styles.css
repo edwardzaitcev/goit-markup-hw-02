@@ -8,30 +8,7 @@ li class="header-item
 link
 a class="header-link link"
 
-1)
-section class="content"
-h1 class="content-title"
-button type="button" class="content-button link"- замовити послугу
-2)
-section class="text" - Н1 скритий , наші переваги
-ul class="list
-h2 class="text-title"
-p class="text-paragraph"
 
-3) 
-section class="different"
-h2 class="different-title" - Чим ми займаємося
-4)
-class="team"
-class="team-title" -Наша команда
-
-
-
-footer
-class="footer-mail link"
-class="footer-tel link"
-
-*/
 
 .site-body {
   font-family: "Roboto", sans-serif;
